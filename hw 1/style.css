@@ -1,0 +1,71 @@
+.box {
+    background-color: black;
+    height: 100%;
+    width: 400px;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.abouttext {
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+}
+
+p {
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 18px;
+    color: white;
+}
+
+.about {
+    top: 390px;
+    left: 30px;
+    position: absolute;
+}
+
+img.lau {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    transition: transform .7s ease-in-out;
+}
+
+img.lau:hover {
+    transform: rotate(360deg);
+}
+
+img.bubs {
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 290px;
+    left: 120px;
+}
+
+div.polaroid {
+    width: 30%;
+    height: 30%;
+    background-color: #ffd4d9;
+    margin-bottom: 25px;
+    float: right;
+    position: relative;
+    padding: 10px;
+    left: -55px;
+    bottom: -85px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
