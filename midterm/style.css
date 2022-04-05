@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "JMH Typewriter";
+    src: url('JMH Typewriter.otf');
+}
+
+
+html {
+    margin: 20px auto;
+    text-align: center;
+    background-image: url('img/bg5.jpeg');
+}
+
+.title {
+    width: 48%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#desc {
+    background-color: #8ab4d6;
+    border: 5px solid #bde0fe;
+    border-radius: 30px;
+    margin: auto;
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: "JMH Typewriter";
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+    padding-top: 40px;
+    color: #020202;
+    font-size: 16px;
+    font-family: "JMH Typewriter";
+    font-weight: bold;
+}
+
+#show-cards {
+    display: flex;
+    justify-content: center;
+}
+
+#generate-deck-btn, #draw-card-btn {
+    color: white;
+    font-size: 16px;
+    font-family: "JMH Typewriter";
+    background-color: #fcb198;
+    border: 5px solid #f2d1bf;
+    border-radius: 15px;
+    padding: 10px;
+}
+
