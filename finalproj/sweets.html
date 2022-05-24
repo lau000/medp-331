@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="sweets.css">
+        <title>PINOYMART</title>
+    </head>
+
+    <body>
+        <main>
+            <!-- logo pic -->
+            <a href="index.html"><img src="img/sweets_logo.png" class="title"/></a>
+
+            <!-- shopping cart button -->
+            <img src="img/cart.png" id="cart"/>
+
+            <!-- row of product categories -->
+            <div class="row">
+                <div class="column">
+                    <img src="img/sweets/potchi.png" style="width:85%;"/>
+                    <p class="chip_name">POTCHI STRAWBERRY CANDY</p>
+                    
+                    <p style="padding-left:33px;">   
+                        strawberry flavored cream gummies
+                        <br> contains food allergen: glucose and gelatin
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$3.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for candy type, put:
+                                <br> 1 = potchi strawberry
+                                <br> 2 = assorted cakes
+                                <br> 3 = meiji yan yan
+                                <br> 4 = dried mangoes
+                                <br> 5 = choc nut
+                                <br> 6 = stik-o wafer sticks</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">candy type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/sweets/cakes.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 40px">REGENT ASSORTED CAKES</p>
+                    
+                    <p style="padding-left:63px;">   
+                        flavors: mocca, strawberry,
+                        <br>pandan, melon, and ube
+                        <br> contains food allergen: egg and
+                        <br>milk products
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$6.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for candy type, put:
+                                <br> 1 = potchi strawberry
+                                <br> 2 = assorted cakes
+                                <br> 3 = meiji yan yan
+                                <br> 4 = dried mangoes
+                                <br> 5 = choc nut
+                                <br> 6 = stik-o wafer sticks</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">candy type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/sweets/yanyan.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 90px">MEIJI YAN YAN</p>
+                    
+                    <p style="padding-left:53px;">   
+                        flavors: chocolate, strawberry,
+                        <br>vanilla, and banana
+                        <br> contains food allergen: milk, 
+                        <br>soy, and wheat
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$8.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for candy type, put:
+                                <br> 1 = potchi strawberry
+                                <br> 2 = assorted cakes
+                                <br> 3 = meiji yan yan
+                                <br> 4 = dried mangoes
+                                <br> 5 = choc nut
+                                <br> 6 = stik-o wafer sticks</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">candy type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="column">
+                    <img src="img/sweets/driedmango.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 60px">PHILIPPINE DRIED MANGOES</p>
+                    
+                    <p style="padding-left:33px;">   
+                        high in vitamin c and naturally fat-free!
+                        <br> a healthy alternative for an all-day snack
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for candy type, put:
+                                <br> 1 = potchi strawberry
+                                <br> 2 = assorted cakes
+                                <br> 3 = meiji yan yan
+                                <br> 4 = dried mangoes
+                                <br> 5 = choc nut
+                                <br> 6 = stik-o wafer sticks</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">candy type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/sweets/chocnut.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 115px">CHOC NUT</p>
+                    
+                    <p style="padding-left:15px;">   
+                        delicious peanut and milk chocolate bars
+                        <br> contains food allergen: milk and
+                        <br>peanut products
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$5.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for candy type, put:
+                                <br> 1 = potchi strawberry
+                                <br> 2 = assorted cakes
+                                <br> 3 = meiji yan yan
+                                <br> 4 = dried mangoes
+                                <br> 5 = choc nut
+                                <br> 6 = stik-o wafer sticks</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">candy type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/sweets/stiko.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 10px">STIK-O CHOCOLATE WAFER STICKS</p>
+                    
+                    <p style="padding-left:20px;">   
+                        pioneers of the filipino wafer stick market!
+                        <br> contains food allergen: wheat, soy, and milk
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$7.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for candy type, put:
+                                <br> 1 = potchi strawberry
+                                <br> 2 = assorted cakes
+                                <br> 3 = meiji yan yan
+                                <br> 4 = dried mangoes
+                                <br> 5 = choc nut
+                                <br> 6 = stik-o wafer sticks</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">candy type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+
+</html>

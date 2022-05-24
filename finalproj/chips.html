@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="chips.css">
+        <title>PINOYMART</title>
+    </head>
+
+    <body>
+        <main>
+            <!-- logo pic -->
+            <a href="index.html"><img src="img/chips_logo.png" class="title"/></a>
+
+            <!-- shopping cart button -->
+            <img src="img/cart.png" id="cart"/>
+
+            <!-- row of product categories -->
+            <div class="row">
+                <div class="column">
+                    <img src="img/chips/tomichips.png" style="width:85%;"/>
+                    <p class="chip_name">TOMI SWEET CORN</p>
+                    
+                    <p style="padding-left:33px;">   
+                        corn chips with sweet corn flavor
+                        <br> contains food allergen: milk products
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for chip type, put:
+                                <br> 1 = tomi sweet corn chips
+                                <br> 2 = richee chips
+                                <br> 3 = regent cheese chips
+                                <br> 4 = clover chips
+                                <br> 5 = piattos
+                                <br> 6 = moby chips</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">chip type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/chips/richee.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 50px">RI-CHEE CRUNCHY SNACK</p>
+                    
+                    <p style="padding-left:33px;">   
+                        a snack glazed in "milky goodness"!
+                        <br> contains food allergen: milk products
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for chip type, put:
+                                <br> 1 = tomi sweet corn chips
+                                <br> 2 = richee chips
+                                <br> 3 = regent cheese chips
+                                <br> 4 = clover chips
+                                <br> 5 = piattos
+                                <br> 6 = moby chips</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">chip type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/chips/regentcheese.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 70px">REGENT CHEESE RINGS</p>
+                    
+                    <p style="padding-left:33px;">   
+                        a delicious ring-shaped cheesy snack
+                        <br> contains food allergen: cheese products
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$1.75</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for chip type, put:
+                                <br> 1 = tomi sweet corn chips
+                                <br> 2 = richee chips
+                                <br> 3 = regent cheese chips
+                                <br> 4 = clover chips
+                                <br> 5 = piattos
+                                <br> 6 = moby chips</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">chip type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="column">
+                    <img src="img/chips/cloverchips.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 60px">LESLIE'S CLOVER CHIPS</p>
+                    
+                    <p style="padding-left:33px;">   
+                        a cheesy, corn clover-shaped snack
+                        <br> contains food allergen: milk products
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$4.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for chip type, put:
+                                <br> 1 = tomi sweet corn chips
+                                <br> 2 = richee chips
+                                <br> 3 = regent cheese chips
+                                <br> 4 = clover chips
+                                <br> 5 = piattos
+                                <br> 6 = moby chips</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">chip type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/chips/piattoschips.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 65px">JACK N JILL PIATTOS</p>
+                    
+                    <p style="padding-left:15px;">   
+                        crispy, cheesy, and light tasting
+                        <br> contains food allergen: milk and soy products
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$3.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for chip type, put:
+                                <br> 1 = tomi sweet corn chips
+                                <br> 2 = richee chips
+                                <br> 3 = regent cheese chips
+                                <br> 4 = clover chips
+                                <br> 5 = piattos
+                                <br> 6 = moby chips</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">chip type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/chips/mobychips.png" style="width:85%"/>
+                    <p class="chip_name">MOBI CHOCOLATE CHIPS</p>
+                    
+                    <p style="padding-left:20px;">   
+                        light, creamy, chocolat-y sensation!
+                        <br> contains food allergen: milk and soy products
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$3.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for chip type, put:
+                                <br> 1 = tomi sweet corn chips
+                                <br> 2 = richee chips
+                                <br> 3 = regent cheese chips
+                                <br> 4 = clover chips
+                                <br> 5 = piattos
+                                <br> 6 = moby chips</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">chip type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+
+</html>

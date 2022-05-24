@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="nuts.css">
+        <title>PINOYMART</title>
+    </head>
+
+    <body>
+        <main>
+            <!-- logo pic -->
+            <a href="index.html"><img src="img/nuts_logo.png" class="title"/></a>
+
+            <!-- shopping cart button -->
+            <img src="img/cart.png" id="cart"/>
+
+            <!-- row of product categories -->
+            <div class="row">
+                <div class="column">
+                    <img src="img/nuts/original.png" style="width:85%;"/>
+                    <p class="chip_name">NAGARAYA (ORIGINAL)</p>
+                    
+                    <p style="padding-left:33px;">   
+                        delicious peanuts snack
+                        <br>with low sodium
+                        <br> contains food allergen: wheat, coconut,
+                        <br>and soy
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for nuts/crackers type, put:
+                                <br> 1 = nagaraya (og)
+                                <br> 2 = nagaraya (garlic)
+                                <br> 3 = nagaraya (adobo)
+                                <br> 4 = boy bawang
+                                <br> 5 = ding dong
+                                <br> 6 = skyflakes</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">nuts/crackers type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/nuts/garlic.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 60px">NAGARAYA (GARLIC)</p>
+                    
+                    <p style="padding-left:33px;">   
+                        delicious peanuts snack
+                        <br>with low sodium
+                        <br> contains food allergen: wheat, coconut,
+                        <br>and soy
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for nuts/crackers type, put:
+                                <br> 1 = nagaraya (og)
+                                <br> 2 = nagaraya (garlic)
+                                <br> 3 = nagaraya (adobo)
+                                <br> 4 = boy bawang
+                                <br> 5 = ding dong
+                                <br> 6 = skyflakes</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">nuts/crackers type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/nuts/adobo.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 70px">NAGARAYA (ADOBO)</p>
+                    
+                    <p style="padding-left:33px;">   
+                        delicious peanuts snack
+                        <br>with low sodium
+                        <br> contains food allergen: wheat, coconut,
+                        <br>and soy
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for nuts/crackers type, put:
+                                <br> 1 = nagaraya (og)
+                                <br> 2 = nagaraya (garlic)
+                                <br> 3 = nagaraya (adobo)
+                                <br> 4 = boy bawang
+                                <br> 5 = ding dong
+                                <br> 6 = skyflakes</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">nuts/crackers type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="column">
+                    <img src="img/nuts/boybawang.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 110px">BOY BAWANG</p>
+                    
+                    <p style="padding-left:60px;">   
+                        perfectly deep-fried, light,
+                        <br>crunchy corn bits
+                        <br> contains food allergen: peanuts,
+                        <br>tree nuts, and milk
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for nuts/crackers type, put:
+                                <br> 1 = nagaraya (og)
+                                <br> 2 = nagaraya (garlic)
+                                <br> 3 = nagaraya (adobo)
+                                <br> 4 = boy bawang
+                                <br> 5 = ding dong
+                                <br> 6 = skyflakes</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">nuts/crackers type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/nuts/dingdong.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 95px">JBC DING DONG</p> 
+                    
+                    <p style="padding-left:45px;">   
+                        a combination of different kinds
+                        <br>of flavored nuts
+                        <br> contains food allergen: peanuts, soy,
+                        <br>and wheat
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for nuts/crackers type, put:
+                                <br> 1 = nagaraya (og)
+                                <br> 2 = nagaraya (garlic)
+                                <br> 3 = nagaraya (adobo)
+                                <br> 4 = boy bawang
+                                <br> 5 = ding dong
+                                <br> 6 = skyflakes</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">nuts/crackers type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/nuts/skyflakes.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 10px">MY SAN SKYFLAKES CRACKERS</p>
+                    
+                    <p style="padding-left:20px;">   
+                        the country's all time first
+                        <br>choice for crackers
+                        <br> contains food allergen: wheat, gluten,
+                        <br>soy, and milk
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$10.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for nuts/crackers type, put:
+                                <br> 1 = nagaraya (og)
+                                <br> 2 = nagaraya (garlic)
+                                <br> 3 = nagaraya (adobo)
+                                <br> 4 = boy bawang
+                                <br> 5 = ding dong
+                                <br> 6 = skyflakes</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">nuts/crackers type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+
+</html>

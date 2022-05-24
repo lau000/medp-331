@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="drinks.css">
+        <title>PINOYMART</title>
+    </head>
+
+    <body>
+        <main>
+            <!-- logo pic -->
+            <a href="index.html"><img src="img/drinks_logo.png" class="title"/></a>
+
+            <!-- shopping cart button -->
+            <img src="img/cart.png" id="cart"/>
+
+            <!-- row of product categories -->
+            <div class="row">
+                <div class="column">
+                    <img src="img/drinks/peach.png" style="width:85%;"/>
+                    <p class="chip_name" style="padding-left: 50px">MOGU MOGU (PEACH)</p>
+                    
+                    <p style="padding-left:33px;">   
+                        refreshing and delicious juice drink
+                        <br>with chewy nata de coco
+                        <br> contains food allergen: coconut
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for drink type, put:
+                                <br> 1 = mogu mogu (peach)
+                                <br> 2 = mogu mogu (apple)
+                                <br> 3 = mogu mogu (grape)
+                                <br> 4 = nestle milo drink
+                                <br> 5 = calamansi drink
+                                <br> 6 = mango juice</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">drink type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/drinks/apple.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 60px">MOGU MOGU (APPLE)</p>
+                    
+                    <p style="padding-left:33px;">   
+                        refreshing and delicious juice drink
+                        <br>with chewy nata de coco
+                        <br> contains food allergen: coconut
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for drink type, put:
+                                <br> 1 = mogu mogu (peach)
+                                <br> 2 = mogu mogu (apple)
+                                <br> 3 = mogu mogu (grape)
+                                <br> 4 = nestle milo drink
+                                <br> 5 = calamansi drink
+                                <br> 6 = mango juice</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">drink type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/drinks/grape.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 70px">MOGU MOGU (GRAPE)</p>
+                    
+                    <p style="padding-left:43px;">   
+                        refreshing and delicious juice drink
+                        <br>with chewy nata de coco
+                        <br> contains food allergen: coconut
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for drink type, put:
+                                <br> 1 = mogu mogu (peach)
+                                <br> 2 = mogu mogu (apple)
+                                <br> 3 = mogu mogu (grape)
+                                <br> 4 = nestle milo drink
+                                <br> 5 = calamansi drink
+                                <br> 6 = mango juice</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">drink type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="column">
+                    <img src="img/drinks/milo.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 20px">NESTLE MILO CHOCOLATE DRINK</p>
+                    
+                    <p style="padding-left:13px;">   
+                        a chocolate nutritional energy drink
+                        <br> contains food allergen: milk and soy products
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.50</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for drink type, put:
+                                <br> 1 = mogu mogu (peach)
+                                <br> 2 = mogu mogu (apple)
+                                <br> 3 = mogu mogu (grape)
+                                <br> 4 = nestle milo drink
+                                <br> 5 = calamansi drink
+                                <br> 6 = mango juice</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">drink type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/drinks/calamansi.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 45px">COOL TASTE CALAMANSI</p>
+                    
+                    <p style="padding-left:65px;">   
+                        a delicious lime refreshment
+                        <br> and perfect for traveling
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$3.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for drink type, put:
+                                <br> 1 = mogu mogu (peach)
+                                <br> 2 = mogu mogu (apple)
+                                <br> 3 = mogu mogu (grape)
+                                <br> 4 = nestle milo drink
+                                <br> 5 = calamansi drink
+                                <br> 6 = mango juice</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">drink type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <img src="img/drinks/mangodrink.png" style="width:85%"/>
+                    <p class="chip_name" style="padding-left: 50px">PHILIPPINE MANGO JUICE</p>
+                    
+                    <p style="padding-left:100px;">   
+                        pure mango drink,
+                        <br> not from concentrate
+                        <br>
+                        <button id="myBtn" class="button" style="vertical-align:middle"><span>$2.00</span></button>
+                    </p>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                               <strong>for drink type, put:
+                                <br> 1 = mogu mogu (peach)
+                                <br> 2 = mogu mogu (apple)
+                                <br> 3 = mogu mogu (grape)
+                                <br> 4 = nestle milo drink
+                                <br> 5 = calamansi drink
+                                <br> 6 = mango juice</strong>
+                            </div>
+                            <div class="modal-body">
+                              <form action="quantity.php" method="post">
+                                <label for="chip type">drink type:</label>
+                                <input type="int" name="chip_type" id="chip_type" required>
+                                <br>
+                                <label for="quantity">quantity:</label>
+                                <input type="int" name="quantity" id="quantity" required>
+                                <br>
+                                <input type="submit" name="submit" id="submit">
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+
+</html>

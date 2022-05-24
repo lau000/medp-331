@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "TNanti";
+    src: url('TNanti-Demo.otf');
+}
+
+html {
+    background-image: url('img/brickwall.jpg');
+    background-size: cover;
+}
+
+.title {
+    width: 48%;
+    display: block;
+    margin: auto;
+    padding-bottom: 2px;
+}
+
+.cart {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+/* image containers */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#desc {
+    position: relative;
+    padding-bottom: 12px;
+    width: 100%;
+    margin: auto;
+}
+
+p {
+    color: white;
+    font-size: 27px;
+    font-family: "TNanti";
+    text-align: center;
+}
+
+.chips, .sweets, .nuts, .drinks {
+    transition: transform .7s ease-in-out;
+}
+
+.chips:hover, .sweets:hover, .nuts:hover, .drinks:hover {
+    transform: rotate(360deg);
+}
