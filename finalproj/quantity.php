@@ -2,7 +2,7 @@
     //server info and log-in details
     //keep servername the same and change to your username, password, and database name
     $servername = "localhost:3308";
-    $username = "web05";
+    $username = "web05dbuser";
     $password = "SP2022web05";
     $dbname = "web05db";
     
